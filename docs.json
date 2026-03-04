@@ -1,0 +1,43 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Base Docs (Español)",
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#0052FF",
+    "light": "#0052FF",
+    "dark": "#0052FF"
+  },
+  "topbarLinks": [
+    {
+      "name": "English Docs",
+      "url": "https://docs.base.org"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Base.org",
+    "url": "https://base.org"
+  },
+  "navigation": [
+    {
+      "group": "Agentes de IA en Base",
+      "pages": [
+        "ai-agents"
+      ]
+    },
+    {
+      "group": "Conceptos Fundamentales",
+      "pages": [
+        "ai-agents/core-concepts/agent-frameworks",
+        "ai-agents/core-concepts/wallets",
+        "ai-agents/core-concepts/payments-and-transactions",
+        "ai-agents/core-concepts/identity-verification-auth",
+        "ai-agents/core-concepts/agent-apps"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/base",
+    "github": "https://github.com/base",
+    "discord": "https://discord.gg/buildonbase"
+  }
+}
