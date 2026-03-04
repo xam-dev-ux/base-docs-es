@@ -3,10 +3,6 @@ title: "Aplicaciones de Agentes"
 description: "Construye servicios diseñados para agentes y haz que tu aplicación sea descubrible"
 ---
 
-<Card title="Agent App Framework" icon="github" href="https://github.com/base/agent-apps-experimental">
-  Repositorio experimental de frameworks para aplicaciones de agentes en Base.
-</Card>
-
 Una aplicación de agentes es un servicio construido con agentes de IA como el usuario principal. En lugar de renderizar una interfaz visual para que los humanos hagan clic, una aplicación de agentes expone endpoints estructurados que los agentes pueden descubrir, entender y llamar programáticamente.
 
 <iframe
@@ -30,8 +26,7 @@ La convención `/.well-known/` es una forma estándar de alojar metadatos en una
 ### Qué va en un SKILL.md
 
 Tu archivo `SKILL.md` describe qué hace tu aplicación, qué endpoints están disponibles y cómo usarlos. Aquí hay una plantilla conceptual:
-
-```markdown Title "SKILL.md template"
+```markdown
 # Nombre de Tu Aplicación
 
 ## Descripción
@@ -68,7 +63,9 @@ Aloja tu `SKILL.md` en `/.well-known/SKILL.md` y registra tu aplicación en el [
 El Agent App Framework es experimental. Las APIs y convenciones pueden cambiar a medida que el estándar evoluciona.
 </Warning>
 
-<GithubRepoCard title="Agent App Framework" githubUrl="https://github.com/base/agent-apps-experimental" />
+<Card title="Agent App Framework" icon="github" href="https://github.com/base/agent-apps-experimental">
+  Repositorio experimental de frameworks para aplicaciones de agentes en Base.
+</Card>
 
 ## Continúa explorando
 
