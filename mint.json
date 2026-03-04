@@ -1,6 +1,7 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "Base Docs (Español)",
+  "favicon": "/favicon.png",
   "colors": {
     "primary": "#0052FF",
     "light": "#0052FF",
