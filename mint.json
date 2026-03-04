@@ -21,12 +21,6 @@
     "name": "Base.org",
     "url": "https://base.org"
   },
-  "tabs": [
-    {
-      "name": "Agentes de IA",
-      "url": "ai-agents"
-    }
-  ],
   "anchors": [
     {
       "name": "Documentación Oficial",
