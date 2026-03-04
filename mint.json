@@ -66,10 +66,5 @@
     "x": "https://x.com/base",
     "github": "https://github.com/base",
     "discord": "https://discord.gg/buildonbase"
-  },
-  "analytics": {
-    "ga4": {
-      "measurementId": "G-XXXXXXXXXX"
-    }
   }
 }
