@@ -46,6 +46,12 @@
   ],
   "navigation": [
     {
+      "group": "Inicio",
+      "pages": [
+        "introduction"
+      ]
+    },
+    {
       "group": "Agentes de IA en Base",
       "pages": [
         "ai-agents/index"
