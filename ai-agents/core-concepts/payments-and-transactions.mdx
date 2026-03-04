@@ -15,7 +15,7 @@ Tu agente tiene un wallet. Ahora necesita usarlo. Esta página cubre dos concept
 
 ## x402: pago por solicitud con stablecoins
 
-x402 permite que tu agente pague por solicitudes de API usando <Tooltip tip="Criptomonedas ancladas a un activo estable como el dólar estadounidense (por ejemplo, USDC). 1 USDC está diseñado para siempre equivaler a $1.">stablecoins</Tooltip> sin suscripciones o claves de API. Tu agente solicita un recurso, el servidor le dice el precio, tu agente paga y el servidor entrega los datos.
+x402 permite que tu agente pague por solicitudes de API usando stablecoins sin suscripciones o claves de API. Tu agente solicita un recurso, el servidor le dice el precio, tu agente paga y el servidor entrega los datos.
 
 El nombre proviene del código de estado HTTP `402 Payment Required`, que ha estado reservado en la especificación HTTP desde los años 1990 pero nunca fue ampliamente adoptado. x402 finalmente lo pone en uso.
 
@@ -47,7 +47,7 @@ Este modelo es poderoso para agentes porque no requiere una relación preexisten
 
 Los skills son definiciones de funciones tipadas que describen una acción que tu agente puede invocar. Cada skill especifica un nombre, entradas esperadas y tipo de retorno similar a un esquema de herramienta o función en cualquier integración de uso de herramientas de LLM. Tu agente analiza estas definiciones en runtime y las llama cuando son relevantes.
 
-Los skills cubren acciones como verificar el balance de un token, ejecutar un intercambio, enviar un pago o llamar a un <Tooltip tip="Un programa desplegado onchain que se ejecuta automáticamente cuando se cumplen las condiciones">smart contract</Tooltip>.
+Los skills cubren acciones como verificar el balance de un token, ejecutar un intercambio, enviar un pago o llamar a un smart contract.
 
 ### Cómo se ve un skill
 
